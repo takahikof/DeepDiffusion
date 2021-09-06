@@ -8,12 +8,10 @@ Takahiko Furuya and Ryutarou Ohbuchi,
 Currently under review.
 ```
 
-DeepDiffusion learns learns retrieval-adapted feature representations via ranking on a latent feature manifold. By minimizing our Latent Manifold Ranking loss, the encoder DNN and the latent feature manifold (i.e., intrinsic features) are optimized for comparison of data samples. DD is applicable to a wide range of multimedia data including 3D shape and 2D image.
-
-SAT learns 3D shape feature via cross-predicting, or transcoding, multiple different 3D shape representations such as voxels, 3D point set, and multi-view 2D images. The embedded features in the latent space shared by the multiple 3D shape representations are used for 3D shape retrieval or 3D shape classification.
+DeepDiffusion learns retrieval-adapted feature representations via ranking on a latent feature manifold. By minimizing our Latent Manifold Ranking loss, the encoder DNN and the latent feature manifold are optimized for comparison of data samples. DeepDiffusion is applicable to a wide range of multimedia data types including 3D shape and 2D image. Unlike the existing supervised metric learning losses (e.g., the contrastive loss and the triplet loss), our DeepDiffusion is capable of learning representations suitable for information retrieval in a fully unsupervised manner. 
 ![pic](DD.PNG)<br>
 
-The instruction below describes how to prepare data and how to train/evaluate SAT using ModelNet10 dataset.
+The instruction below describes how to prepare data (3D point sets of the ModelNet10 dataset) and how to train/evaluate DeepDiffusion.
 
 ## Pre-requisites
 Our code has been tested with Python 3.6, Tensorflow 1.13 and CUDA 10.0 on Ubuntu 18.04.<br>
