@@ -4,7 +4,7 @@
 echo "downloading dataset files..."
 dataset="http://3dvision.princeton.edu/projects/2014/3DShapeNets/ModelNet10.zip"
 
-tmp_dir="./tmp"
+tmp_dir="./tmp_modelnet10"
 mkdir -p $tmp_dir
 wget $dataset
 mv ModelNet10.zip $tmp_dir
