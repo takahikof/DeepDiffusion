@@ -27,5 +27,5 @@ This script downloads the ModelNet10 dataset and converts the 3D surface models 
 
 ## Training the DNN by using DeepDiffusion and evaluating learned feature representations
 Run the shell script "TrainAndTest_3DShape.sh". <br>
-By running this script, the PointNet \[Qi, Su, et al., 2017] encoder is trained from scratch in an unsupervised manner. During the training of 300 epochs, retrieval accuracy in Mean Average Precision (MAP) of the testing datasets will be evaluated at every 10 epochs.
+By running this script, the PointNet \[Qi, Su, et al., 2017] encoder is trained from scratch in an unsupervised manner. During the training of 300 epochs, retrieval accuracy in Mean Average Precision (MAP) of the testing dataset will be evaluated at every 10 epochs.
 If the training proceeds successfully, you will obtain a MAP score of nearly 80 %.
