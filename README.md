@@ -5,7 +5,7 @@ The DeepDiffusion algorithm is proposed in the following paper.<br>
 ```
 Takahiko Furuya and Ryutarou Ohbuchi,
 "DeepDiffusion: Unsupervised Learning of Retrieval-adapted Representations via Diffusion-based Ranking on Latent Feature Manifold",
-Currently under review.
+Accepted to the IEEE Access journal.
 ```
 
 ![pic](DD.PNG)<br>
